@@ -1,10 +1,10 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const { generateSVG } = require('./lib/shapes');
+const { generateSVG } = require('./lib/svg');
 
-//Include packages needed for this application
+// packages needed for this application
 
-//Create an array of questions for user input
+//array of questions for user input
 const getUserInput = async () => {
     try {
         // Use await to get user answers
@@ -40,10 +40,10 @@ const getUserInput = async () => {
     }
 };
         
-// Create a function to write SVG file
+// function to write SVG file
 const writeToFile = (fileName, svgContent) => {
     const fullFileName = `${__dirname}/${fileName}`;
     fs.writeFileSync(fullFileName, svgContent);
   };
-//Create a function to initialize app
+//initialize app
 getUserInput();
