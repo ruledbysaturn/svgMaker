@@ -25,4 +25,4 @@ To run the tests, user can run command "npm test" in the terminal. Jest will run
 ![testsShot](./images/tests.png)
 
 
-# [Walkthrough Video]()
+# [Walkthrough Video](https://drive.google.com/file/d/1ODWQEjsdvTeooINiTK_Rv1PSfkciwirY/view)
