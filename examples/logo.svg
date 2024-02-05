@@ -1,5 +1,5 @@
 
     <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
         <polygon points="150,18 244,182 56,182" fill="pink" />
-        <text x="50%" y="50%" fill="white" font-size="30" text-anchor="middle" font-family="Arial">ttt</text>
+        <text x="50%" y="50%" fill="white" font-size="30" text-anchor="middle" font-family="Arial">TIL</text>
     </svg>
